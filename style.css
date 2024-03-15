@@ -1,0 +1,137 @@
+body {
+    background-image: url(images/img.png);
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    background-color: rgb(180, 180, 180);
+    justify-content: right;
+    font-size: 1rem;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    
+   
+}
+nav a:hover{
+    color: blue;
+}
+.p1,.p2{
+    display: flex;
+    justify-content: space-evenly
+}
+ul{
+    color: white;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+img {
+    display: block;
+    margin: 50px;
+    width: 400px;
+    border-radius: 20px;
+    gap: 50px;
+    box-shadow: 18px 18px 10px rgb(17, 17, 17);
+    
+}
+.pfp{
+    display: flex;
+}
+.ni{
+    font-size: 1.5rem;
+    font-style: monospace;
+    padding-top: 8rem;
+}
+
+h1,h2{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+p{
+    color: white;
+    font-size: 1.2rem; 
+}
+.anels{
+    text-align: center;
+
+}
+.me{
+    font-size: 1rem;
+}
+h3{
+
+    color: white;
+    text-align: left;
+    font-size: 2rem;
+}
+td{
+    font-size: 1.5rem; 
+}
+table,tr {
+    color: white;
+    text-align: center;
+}
+th{
+    font-size: 1.5rem;
+}
+li {
+    color: white;
+    text-align: left;
+    font-size: 1.2rem;
+}
+div {
+    
+    padding: 10px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer {
+            background-color: #5e5e5e;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer img {
+            width: 30px; /* Adjust the size as needed */
+            margin: 0 5px;
+            vertical-align: middle;
+        }
+
+.table{
+    padding-left: 500px;
+}
